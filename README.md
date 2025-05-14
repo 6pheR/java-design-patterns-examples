@@ -1,19 +1,11 @@
-# Java Design Patterns — Exemples & Cheatsheet 🇫🇷🇬🇧
+# Java Design Patterns — Cheatsheet avec Exemples 🇫🇷🇬🇧
 
-[![Lang: English](https://img.shields.io/badge/lang-English-blue.svg)](#english-version)  
-[![Langue : Français](https://img.shields.io/badge/langue-Français-blue.svg)](#version-française)
-
----
-
-## 📌 À propos / About
-
-Ce dépôt contient une collection de **design patterns Java** les plus courants, avec des **exemples concrets** et **explications claires**.
-
-This repository includes a clean cheatsheet of the most common **Java design patterns**, with **clear explanations** and **code examples**.
+[![Lang: Switchable](https://img.shields.io/badge/language-FR%20%2F%20EN-blue.svg)](#)
 
 ---
 
-## 🇫🇷 Version Française
+<details>
+<summary>🇫🇷 Version Française (clique pour ouvrir)</summary>
 
 ### 🔧 1. Patterns Créationnels
 
@@ -39,9 +31,12 @@ This repository includes a clean cheatsheet of the most common **Java design pat
 
 📂 Chaque pattern est présenté avec un exemple Java court et simple.
 
+</details>
+
 ---
 
-## 🇬🇧 English Version
+<details>
+<summary>🇬🇧 English Version (click to open)</summary>
 
 ### 🔧 1. Creational Patterns
 
@@ -67,27 +62,14 @@ This repository includes a clean cheatsheet of the most common **Java design pat
 
 📂 Each pattern comes with a short, easy-to-read Java code example.
 
----
-
-## 🔗 Utilisation / Usage
-
-Clone le repo ou consulte simplement les fichiers source pour apprendre rapidement :
-
-```bash
-git clone https://github.com/votre-utilisateur/java-design-patterns-examples.git
-cd java-design-patterns-examples
-```
+</details>
 
 ---
 
 ## 👤 Auteur / Author
 
-**Ton blaze ici**  
-[GitHub](https://github.com/votre-utilisateur) • [LinkedIn](https://www.linkedin.com/in/tonprofil)
+[GitHub](https://github.com/6pher)
 
 ---
 
-## ⭐️ N'oublie pas de laisser une étoile si ça t'aide !
-
----
-
+⭐️ **N'oublie pas de laisser une étoile si ce projet t'est utile !**
