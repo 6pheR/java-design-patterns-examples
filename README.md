@@ -1,14 +1,16 @@
-# Java Design Patterns — Cheatsheet avec Exemples 🇫🇷🇬🇧
-
-[![Lang: Switchable](https://img.shields.io/badge/language-FR%20%2F%20EN-blue.svg)](#)
+# Java Design Patterns — Complete Cheatsheet & Examples
 
 ---
 
-## 🇫🇷 Version Française
+## 📌 About
 
-### 🔧 1. Patterns Créationnels
+This repository provides a complete cheatsheet of the most useful **Java design patterns**, categorized and explained with **clear and practical code examples**.
 
-#### ✅ Singleton
+---
+
+## 🔧 1. Creational Patterns
+
+### ✅ Singleton
 
 ```java
 class Singleton {
@@ -21,7 +23,7 @@ class Singleton {
 }
 ```
 
-#### ✅ Builder
+### ✅ Builder
 
 ```java
 class Car {
@@ -41,7 +43,7 @@ class Car {
 }
 ```
 
-#### ✅ Factory Method
+### ✅ Factory Method
 
 ```java
 interface Animal { void speak(); }
@@ -57,9 +59,9 @@ class AnimalFactory {
 
 ---
 
-### 🧱 2. Patterns Structurels
+## 🧱 2. Structural Patterns
 
-#### ✅ Adapter
+### ✅ Adapter
 
 ```java
 class OldPrinter {
@@ -72,7 +74,7 @@ class AdapterPrinter implements NewPrinter {
 }
 ```
 
-#### ✅ Decorator
+### ✅ Decorator
 
 ```java
 interface Coffee {
@@ -91,7 +93,7 @@ class MilkDecorator implements Coffee {
 }
 ```
 
-#### ✅ Composite
+### ✅ Composite
 
 ```java
 interface Component { void show(); }
@@ -109,7 +111,7 @@ class Composite implements Component {
 }
 ```
 
-#### ✅ Proxy
+### ✅ Proxy
 
 ```java
 interface Service { void request(); }
@@ -126,9 +128,9 @@ class ProxyService implements Service {
 
 ---
 
-### 🤖 3. Patterns Comportementaux
+## 🤖 3. Behavioral Patterns
 
-#### ✅ Strategy
+### ✅ Strategy
 
 ```java
 interface PaymentStrategy { void pay(int amount); }
@@ -142,7 +144,7 @@ class ShoppingCart {
 }
 ```
 
-#### ✅ Observer
+### ✅ Observer
 
 ```java
 interface Observer { void update(String msg); }
@@ -158,7 +160,7 @@ class Subject {
 }
 ```
 
-#### ✅ Command
+### ✅ Command
 
 ```java
 interface Command { void execute(); }
@@ -175,7 +177,7 @@ class Remote {
 }
 ```
 
-#### ✅ State
+### ✅ State
 
 ```java
 interface State { void handle(); }
@@ -192,7 +194,7 @@ class Door {
 }
 ```
 
-#### ✅ Template Method
+### ✅ Template Method
 
 ```java
 abstract class Game {
@@ -210,7 +212,7 @@ class Chess extends Game {
 }
 ```
 
-#### ✅ Mediator
+### ✅ Mediator
 
 ```java
 interface Mediator {
@@ -235,19 +237,10 @@ class TextBox extends Component {
 
 ---
 
-<details>
-<summary>🇬🇧 English Version (click to open)</summary>
+## 👤 Author
 
-The English version mirrors the structure above and includes all examples translated and explained in English.
-
-</details>
+[CipheR_](https://github.com/your-username)
 
 ---
 
-## 👤 Auteur / Author
-
-[CipheR_](https://github.com/6pher)
-
----
-
-⭐️ **N'oublie pas de laisser une étoile si ce projet t'est utile !**
+⭐️ **If this project helped you, feel free to give it a star!**
